@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form basics</title>
+</head>
+<body>
+    <h1>Your course landing page</h1>
+    <form action="/clp">
+       
+       <div>
+        <label for="title">Course Title</label>
+        <input type="text" id="title" name="title" required/>
+       </div>
+       <div>
+        <label for="area">Course Description</label>
+        <textarea rows="5" cols="5"></textarea>
+       </div>
+       <div>
+        <label for="level">Skill Level</label>
+        <select id="level">
+           <option value="b">begineer level</option>
+           <option value="m">medium level</option>
+           <option value="a">advanced level</option>
+        </select>
+       </div>
+       <div>
+        <label for="publish">ready to publish the course?</label>
+        <input type="radio" id="publish"/>
+       </div>
+       <button>submit</button>
+       <span>i love cats and dogs</span>
+       <div>
+         <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>price</th>
+                </tr>
+            </thead>
+           
+            <tbody>
+                <tr>
+                    <td>hot choclate</td>
+                    <td>2.40</td>
+                    
+                </tr>
+                <tr>
+                    <td>coffee</td>
+                    <td>1.50</td>
+                </tr>
+                <tr>
+                    <td>cookiee</td>
+                    <td>3.00</td>
+                </tr>
+            </tbody>
+           
+         </table>
+       </div>
+       
+    </form>
+</body>
+</html>
